@@ -36,9 +36,9 @@ export default function WordCounter() {
         <Header />
         <div className='container'>
           <div className='card-wrapper d-flex justify-content-between'>
-            <Card count={wordsCount}>Word</ Card >
-            <Card count={charsCount}>Letter</ Card >
-            <Card count={paragraphCount}>Paragraph</ Card >
+            <Card count={wordsCount} icon={'https://images.emojiterra.com/google/android-11/512px/1f4dd.png'}>Word</ Card >
+            <Card count={charsCount} icon={'https://cdn4.iconfinder.com/data/icons/language-learning-filled-color/300/101529155Untitled-3-512.png'}>Letter</ Card >
+            <Card count={paragraphCount} icon={'https://cdn2.iconfinder.com/data/icons/office-257/64/signature-pen-write-writing-256.png'}>Paragraph</ Card >
           </div>
           <div className='box-paragraph'>
             <textarea 
