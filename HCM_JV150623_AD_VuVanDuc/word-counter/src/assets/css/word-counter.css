@@ -1,0 +1,87 @@
+.word-counter {
+    background: linear-gradient(to bottom right, #DFD2EC, #F3B6B9);
+    padding:  20px 0;
+}
+
+.Heading {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.sub-heading {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+}   
+
+.box {
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+    /* border: 1px solid black; */
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 12px;
+    padding-top: 2px;
+    height: 28px;
+    width: 28px;
+    background: #6791b1;
+    color: #fff;
+    box-shadow: 0px 0px 1px 2px #9c9cb0;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.text-box {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.card-wrapper {
+    height: 150px;
+    margin-top: 60px    ;
+}
+
+.card {
+    border-radius: 8px;
+    width: 200px;
+    margin: 0 10px;
+    text-align: center;
+    background: linear-gradient(to bottom right, #7D0AB8, #C222BC);
+}
+
+
+.img {
+    margin-top: 9px;
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+.box-paragraph textarea {
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    border: 2px solid rgb(71, 71, 223);
+    box-shadow: 0px 0px 1px 1px #fff;
+}
+
+.btn-text {
+    width: 200px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    background-color: #7D0AB8;
+    margin: 0 30px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
