@@ -1,5 +1,5 @@
-import './App.css';
-import WordCounter from './components/WordCounter';
+import "./App.css";
+import WordCounter from "./components/WordCounter";
 
 function App() {
   return (
