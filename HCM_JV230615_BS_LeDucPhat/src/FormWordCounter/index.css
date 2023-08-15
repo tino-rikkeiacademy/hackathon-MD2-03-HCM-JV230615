@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@100&display=swap');
+
+.form {
+    text-align: center;
+}
+
+.title {
+  padding-top: 40px;
+  font-size: 43px;
+  font-family: 'Dancing Script', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title img{
+  width: 35px;
+  height: 35px;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+
+textarea {
+    min-width: 820px;
+    border-radius: 10px;
+    background-color: #e1dfdf;
+}
+textarea:focus {
+    outline-color: #5d5dff;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+.buttons button {
+  border-radius: 10px;
+  height: 35px;
+  background-color: #7d0ab8;
+  color: #fff;
+  border: none;
+}
